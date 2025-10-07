@@ -11,3 +11,10 @@ path = "src/lib.rs"
 tokio   = { version = "1.38", features = ["full"] }
 tracing = "0.1"
 serde   = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "pattern_benchmarks"
+harness = false
