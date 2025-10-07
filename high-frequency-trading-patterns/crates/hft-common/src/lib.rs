@@ -4,6 +4,7 @@ pub mod prelude;
 pub mod enhanced_risk;
 pub mod enhanced_mm;
 pub mod enhanced_arb;
+pub mod monitoring;
 
 #[cfg(test)]
 mod tests {
